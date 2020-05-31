@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngrx-app';
+  contador: number;
+
+  constructor() {
+    this.contador = 10;
+  }
+
+  incrementar(valor: number) {
+    this.contador = this.contador + valor
+  }
+
+  decrementar(valor: number) {
+    this.contador = this.contador - valor
+  }
+
 }
