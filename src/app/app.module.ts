@@ -8,9 +8,9 @@ import { NietoComponent } from './contador/nieto/nieto.component';
 
 //NGRX
 import { StoreModule } from '@ngrx/store';
-import { contadorReducer } from './contador.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
+import { contadorReducer } from './contador/contador.reducer';
 
 @NgModule({
   declarations: [
