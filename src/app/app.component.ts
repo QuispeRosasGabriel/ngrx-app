@@ -26,4 +26,8 @@ export class AppComponent {
 
   }
 
+  resetear() {
+    this.store.dispatch(actions.resetear());
+  }
+
 }

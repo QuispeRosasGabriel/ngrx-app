@@ -11,20 +11,18 @@
       Incrementar
     </button>
     <button (click)="decrementar()" class="btn btn-info">Decrementar</button>
+    <button (click)="resetear()" class="btn btn-info">Resetear</button>
   </div>
 </div>
 
-<!-- <hr />
+<hr />
 <div class="row text-center">
   <div class="col">
-    <app-hijo
-      [contador]="contador"
-      (cambioContador)="contador = $event"
-    ></app-hijo>
+    <app-hijo></app-hijo>
   </div>
 </div>
 <hr />
-<div class="row text-center">
+<!-- <div class="row text-center">
   <div class="col">
     <app-nieto
       (resetearContador)="contador = $event"
